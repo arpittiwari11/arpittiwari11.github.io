@@ -7,6 +7,7 @@ The site root always serves the **latest** version. Every released version is al
 |---|---|---|---|
 | v0 | `v0/` | https://arpittiwari11.github.io/v0/ | Original site (Nov 2025): hero, about, 2 publications, skills, course projects |
 | v1 | `v1/` | https://arpittiwari11.github.io/v1/ | Oct 2026 refresh: Meesho experience timeline, all 7 publications, real skills, achievements, fixed JS |
+| v2 | `v2/` | https://arpittiwari11.github.io/v2/ | Story-style About, focus-areas headline, Valmo work-areas card in the hero, fuller mentorship, outlined hero buttons |
 
 ## Releasing a new version
 1. Edit the root files (`index.html`, `styles.css`, `script.js`, …) and preview locally.
