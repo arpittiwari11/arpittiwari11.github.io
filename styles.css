@@ -1149,3 +1149,8 @@ em.inline-em {
   font-weight: var(--font-weight-normal);
   font-size: 20px;
 }
+
+.menu-price strong {
+  color: var(--dark-color);
+  font-weight: 600;
+}
