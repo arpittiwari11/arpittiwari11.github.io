@@ -85,7 +85,8 @@
                     <div class="row">
                         <div class="col-lg-9 col-12">
                             <h1>Arpit Tiwari</h1>
-                            <p class="hero-role">Data Scientist 2 at <strong>Meesho</strong> · Geospatial AI, LLMs &amp; Optimisation</p>
+                            <p class="hero-role">Data Scientist 2 at Meesho</p>
+                            <p class="hero-focus">GeoIndia LLM <span>·</span> Graph ML <span>·</span> Unsupervised Clustering <span>·</span> Optimisation</p>
                             <p class="hero-tagline">
                                 <i class="bi-mortarboard me-1"></i> IIT Bombay
                                 <span class="hero-dot">•</span>
@@ -93,7 +94,7 @@
                             </p>
 
                             <div class="hero-buttons mt-4">
-                                <a class="btn custom-btn" href="resume.pdf" target="_blank" rel="noopener">
+                                <a class="btn custom-border-btn-dark" href="resume.pdf" target="_blank" rel="noopener">
                                     <i class="bi-file-earmark-person me-2"></i>
                                     Resume
                                 </a>
@@ -110,28 +111,33 @@
                     </div>
 
                     <div class="row hero-stats g-3">
-                        <div class="col-lg-3 col-6">
+                        <div class="col-lg-3 col-12">
                             <div class="stat-card">
                                 <span class="stat-number">7</span>
                                 <span class="stat-label">research papers<br>CIKM · AAAI · SIGSPATIAL</span>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="stat-card">
-                                <span class="stat-number">300M+</span>
-                                <span class="stat-label">addresses given a<br>learned location (UAID)</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="stat-card">
-                                <span class="stat-number">80+</span>
-                                <span class="stat-label">sort centres running<br>systems I mentored</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="stat-card">
-                                <span class="stat-number">6</span>
-                                <span class="stat-label">data scientists<br>mentored</span>
+                        <div class="col-lg-9 col-12">
+                            <div class="stat-card domains-card">
+                                <span class="domains-title">What I build for Valmo, Meesho's logistics arm</span>
+                                <div class="domains-grid">
+                                    <div class="domain">
+                                        <i class="bi-geo-alt-fill"></i>
+                                        <div><strong>Address Intelligence</strong><span>Geocoding · Spatial Brain · UAID</span></div>
+                                    </div>
+                                    <div class="domain">
+                                        <i class="bi-currency-rupee"></i>
+                                        <div><strong>Pricing</strong><span>Hub bidding · delivery payouts</span></div>
+                                    </div>
+                                    <div class="domain">
+                                        <i class="bi-truck"></i>
+                                        <div><strong>Network Design</strong><span>Routes &amp; dock slots · mentor</span></div>
+                                    </div>
+                                    <div class="domain">
+                                        <i class="bi-diagram-3-fill"></i>
+                                        <div><strong>Network Expansion</strong><span>Hub opening · manpower planning</span></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -149,13 +155,19 @@
                     </div>
 
                     <div class="col-lg-5 col-12 me-auto mb-4 mb-lg-0">
-                        <h3 class="text-white mb-3">Hello! I'm Arpit</h3>
+                        <h3 class="text-white mb-3">Hello! I’m Arpit</h3>
 
-                        <p class="text-white">I'm a data scientist at Meesho, where I build the systems that understand Indian addresses: generative geocoders that turn messy, multilingual text into precise locations, a geospatial knowledge base learned entirely from delivery data, and optimisation models that plan a logistics network.</p>
+                        <p class="text-white">I started out as a Mechanical Engineer at IIT Bombay, but somewhere along the way, a dual degree in AI &amp; Data Science pulled me into a completely different world: building systems that can make sense of messy, real-world problems.</p>
 
-                        <p class="text-white">I lead Meesho's Address Enrichment &amp; Prediction charter, publish the research behind this work at venues like CIKM, AAAI and SIGSPATIAL, and mentor data scientists across logistics and geo infrastructure.</p>
+                        <p class="text-white">At Meesho, I found one of the messiest problems there is: the Indian address.</p>
 
-                        <p class="text-white mb-0">I studied at IIT Bombay (B.Tech Mechanical + M.Tech in AI &amp; Data Science, Minor in CSE).</p>
+                        <p class="text-white about-quote"><span>“Near the temple, behind the blue gate.”</span><br>It means almost nothing to a map, yet a parcel still has to find its way there.</p>
+
+                        <p class="text-white">That challenge pulled me deeper into AI and geospatial intelligence, and led me to build systems that make sense of addresses at scale. GeoIndia is a generative geocoder that turns multilingual, unstructured addresses into precise locations, while Spatial Brain builds a geographic memory entirely from delivery data. I’ve also built optimisation and pricing systems that help make Meesho’s logistics network more efficient and reduce the cost of delivering every order.</p>
+
+                        <p class="text-white">Today, I lead the Address Enrichment &amp; Prediction charter, working at the intersection of AI, geospatial intelligence, and logistics. My work has been published at CIKM, AAAI, and SIGSPATIAL, and I mentor data scientists across logistics and geo infrastructure.</p>
+
+                        <p class="text-white mb-0">Away from work, you’ll usually find me exploring new technology, travelling, or on a cricket field.</p>
                     </div>
 
                     <div class="col-lg-6 col-12">
@@ -249,11 +261,12 @@
                                         </ul>
                                     </div>
 
-                                    <div class="exp-block mb-0">
-                                        <h5>Mentorship</h5>
+                                    <div class="exp-block mb-0" id="mentorship">
+                                        <h5>Mentorship: 6 data scientists across Valmo and Geo Infra</h5>
                                         <ul>
                                             <li><strong>Network Design:</strong> a MILP that plans vehicle routes and dock slots together, with an LLM agent that turns depot managers' Hinglish instructions into model changes. Live at all 80+ sort centres: fleet <span class="metric">−20%</span>, cost per shipment <span class="metric">−14%</span>, same-day delivery <span class="metric">+17%</span>. <span class="venue-chip">SIGSPATIAL '26</span></li>
                                             <li><strong>Competitive bidding for first-mile pickup:</strong> an optimisation model that assigns 50K+ sellers to 250+ hubs from their bids: cost per shipment <span class="metric">−6.4%</span>. <span class="venue-chip muted">Under review</span></li>
+                                            <li><strong>Geo Infra:</strong> two data scientists on GeoIndia geocoder models and one on Spatial Brain.</li>
                                         </ul>
                                     </div>
 
@@ -311,7 +324,7 @@
                                         <h5>Operations research for Valmo (Meesho's logistics arm)</h5>
                                         <ul>
                                             <li><strong>Strategic hub opening:</strong> an integer linear program that decides where to open hubs and which areas each serves, shipped as an interactive planning tool used by ground ops.</li>
-                                            <li><strong>Intelligent hub polygons:</strong> an algorithm on historical deliveries that draws each hub's service area so every order goes to the hub with the least travel.</li>
+                                            <li><strong>Intelligent hub polygons:</strong> an algorithm on historical deliveries that draws each hub's service area so every order goes to the hub with the least travel; guided a junior data scientist in extending it to field-executive-level polygons.</li>
                                         </ul>
                                     </div>
 
