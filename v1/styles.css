@@ -1154,3 +1154,27 @@ em.inline-em {
   color: var(--dark-color);
   font-weight: 600;
 }
+
+/* Paper links */
+a.venue-chip {
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+a.venue-chip:hover {
+  background: var(--link-hover-color);
+  color: var(--white-color);
+}
+
+a.venue-chip i {
+  font-size: 10px;
+  margin-left: 2px;
+}
+
+.pub-title-link {
+  color: var(--dark-color);
+}
+
+.pub-title-link:hover {
+  color: var(--primary-color);
+}
